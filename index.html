@@ -3,15 +3,66 @@
     <head>
         <title>OpenLab.sk Clone</title>
     </head>
+    <style>
+        body{
+            margin: 0;
+            width: 100%;
+        }
+
+        .text{
+            font-family: 'SF Pro Display', sans-serif;
+        }
+
+        .search-header{
+            width: 100%;
+            display: flex;
+            height: 3rem;
+        }
+
+        .search-container{
+            margin: auto;
+            display: flex;
+            border-bottom: 1px solid black;
+            width: 75%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .search-text-wrapper{
+            margin-right: 3em;
+        }
+
+        .header-span-text{
+            font-size: .9em;
+            color: rgb(42, 42, 42);
+        }
+
+        .search-link-wrapper{
+            padding: .3em 1em;
+            border: .5px solid rgb(185, 185, 185);
+            border-radius: 24px;
+            background-color: rgb(242, 242, 242);
+        }
+
+        .openlab-community-link{
+            text-decoration: none;
+            font-family: 'SF Pro Display', sans-serif;
+            color: rgb(100, 100, 100);
+            font-size: .7em;
+            text-align: center;
+        }
+
+    </style>
     <body>
         <!-- Header Search Bar -->
         <header class="search-header">
             <div class="search-container">
                 <div class="search-text-wrapper">
-                    <h3 class="text">Ak máš záujem študovať spolu s nami, sme tu pre teba...</h3>
+                    <span class="text header-span-text">Ak máš záujem študovať spolu s nami, sme tu pre teba...</span>
                 </div>
                 <div class="search-link-wrapper">
-                    <a href="#">
+                    <a href="#" class="openlab-community-link">
                         <span>OPENLAB COMMUNITY</span>
                         <img src="#" alt="Discord Logo">
                     </a>
@@ -60,7 +111,7 @@
         <section class="hero">
             <div class="hero-container">
                 <div class="hero-text-wrapper">
-                    <h1 class="text hero-main-text">Insštitút stredoškolského odborného vzdelávania <span>zameraný na IT a AI</span></h1>
+                    <h1 class="text hero-main-text">Inštitút stredoškolského odborného vzdelávania <span>zameraný na IT a AI</span></h1>
                     <h3 class="text hero-submain-text">Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</h3>
                 </div>
                 <div class="hero-image-wrapper">
