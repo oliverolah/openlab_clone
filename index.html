@@ -53,6 +53,10 @@
             text-align: center;
         }
 
+        .comm-link-span-text{
+            color: rgb(100, 100, 100);
+        }
+
         .navbar-container {
             width: 73%;
             height: 4.5rem;
@@ -123,13 +127,71 @@
             display: block;
         }
 
+        .dropdown-content a:hover {
+            font-weight: bold;
+        }
+
         .btn-signup{
             border: 1px solid black;
             border-radius: 6px;
             width: 20em;
             padding: 12px 0px;
             background-color: inherit;
+            cursor: pointer;
         }
+
+        .btn-signup:hover{
+            background-color: black;
+            color:white
+        }
+
+        .hero{
+            width: 100%;
+            background-color: #3597ff;
+            height: 430px;
+        }
+
+        .hero-container{
+            width: 73%;
+            height: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;            
+        }
+
+        .hero-text-wrapper{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-text-wrapper, h1, h3, span{
+            color: white;
+        }
+
+        .hero-main-text{
+            font-size: 2.5em;
+            font-weight: 100;
+            line-height: 1.2;
+            margin-top: 0;
+        }
+
+        .hero-span-text{
+            font-weight: bold;
+        }
+
+        .hero-submain-text{
+            font-weight: 400;
+            font-size: 1em;
+            line-height: 1.5;
+            margin-bottom: 0;
+        }
+
+        .hero-image-wrapper{
+            width: 60%;
+        }
+
 
     </style>
     <body>
@@ -141,7 +203,7 @@
                 </div>
                 <div class="search-link-wrapper">
                     <a href="#" class="openlab-community-link">
-                        <span>OPENLAB COMMUNITY</span>
+                        <span class="comm-link-span-text">OPENLAB COMMUNITY</span>
                         <img src="#" alt="Discord Logo">
                     </a>
                 </div>
@@ -185,14 +247,15 @@
         <section class="hero">
             <div class="hero-container">
                 <div class="hero-text-wrapper">
-                    <h1 class="text hero-main-text">Inštitút stredoškolského odborného vzdelávania <span>zameraný na IT a AI</span></h1>
-                    <h3 class="text hero-submain-text">Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</h3>
+                    <div class="hero-texts">
+                        <h1 class="text hero-main-text">Inštitút stredoškolského odborného vzdelávania <span class="hero-span-text">zameraný na IT a AI</span></h1>
+                        <h3 class="text hero-submain-text">Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</h3>
+                    </div>
                 </div>
                 <div class="hero-image-wrapper">
                     <img src="#" alt="Hero Image">
                 </div>
             </div>
-            <img src="#" alt="Circle">
         </section>
 
         <!-- Section 2 -->
