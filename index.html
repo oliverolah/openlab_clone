@@ -53,6 +53,84 @@
             text-align: center;
         }
 
+        .navbar-container {
+            width: 73%;
+            height: 4.5rem;
+            margin: auto;            
+        }
+
+        .navbar-wrapper{
+            margin: auto;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo-link{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 700;
+        }
+
+        .nav-menu{
+            display: flex;
+        }        
+
+        .navbar-wrapper{
+            margin-right: 20rem;
+        }
+
+        .navbar-wrapper, a{
+            text-decoration: none;
+            color: black;
+            font-family: 'SF Pro Display', sans-serif;
+            gap: .5em;
+            font-size: 15px;
+        }
+
+        .dropdown-btn{
+            overflow: hidden;
+            padding: .5em 1em;
+            background-color: inherit;
+            cursor: pointer;
+            font-weight: bold;
+            border: none;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            z-index: 1;
+            border-radius: 6px;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 8px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }       
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .btn-signup{
+            border: 1px solid black;
+            border-radius: 6px;
+            width: 20em;
+            padding: 12px 0px;
+            background-color: inherit;
+        }
+
     </style>
     <body>
         <!-- Header Search Bar -->
@@ -74,35 +152,31 @@
         <nav class="navbar-container">
             <div class="navbar-wrapper">
                 <div class="image-link">
-                    <a href="#">
-                        <img src="#" alt="Logo">
+                    <a href="#" class="logo-link">
+                        <!-- <img src="#" alt="Logo"> -->
+                        OpenLab
                     </a>
                 </div>
                 <div class="nav-menu">
-                    <ul class="navbar-link-list">
-                        <li>
-                            <a href="#">Úvod</a>
-                        </li>
-                        <li>
-                            <a href="#">OpenLab</a>
-                            <a href="#"></a>
-                        </li>
-                        <li>
-                            <a href="#">Pre učiteľov</a>
-                        </li>
-                        <li>
-                            <a href="#">Partneri</a>
-                        </li>
-                        <li>
-                            <a href="#">Moderná škola</a>
-                        </li>
-                        <li>
-                            <a href="#">Časté otázky</a>
-                        </li>
-                    </ul>
-                    <button class="btn-signup">
-                        <a href="#">Pridajte sa k nám</a>
-                    </button>
+                    <div class="navbar-wrapper">
+                        <a href="#">Uvod</a>
+                        <div class="dropdown">
+                            <button class="dropdown-btn">OpenLab
+                                <!-- <img src="#" alt="Dropdown icon"> -->
+                                <!-- <i class="fa-light fa-chevron-down"></i> -->
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">HybridLab</a>
+                                <a href="#">GamesLab</a>
+                                <a href="#">AppsLab</a>
+                            </div>
+                        </div>
+                        <a href="#">Pre ucitelov</a>
+                        <a href="#">Partneri</a>
+                        <a href="#">Moderna skola</a>
+                        <a href="#">Caste otazky</a>
+                    </div>
+                    <button class="btn-signup">Pridajte sa k nám</button>
                 </div>
             </div>
         </nav>
