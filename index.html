@@ -267,7 +267,6 @@
          }
 
         .openlab-vision{
-            background-color: beige;
             height: 400px;
             display: flex;
          }
@@ -279,7 +278,7 @@
          }
 
         .left-vision-container{
-            width: 50%;
+            width: 50%;           
             display: flex;
          }
 
@@ -314,12 +313,88 @@
 
         .right-vision-cards-container{
             width: 50%;
-            display: grid;
-            justify-content: end;
-            grid-template-columns: repeat(2, 1fr);
-            grid-gap: 1em;
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
          }
 
+
+         .vision-card{
+            width: 233px;
+            height: 183px;
+            align-self: end;
+            background-color:aquamarine;
+            margin: .5em;
+            display: flex;
+            align-items: flex-end;
+            justify-content: end;
+        }
+
+        .vision-card-wrapper{
+            margin: 1em;
+        }
+
+        .digit {
+            text-align: right;
+            font-size: 90px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .card-text{
+            font-size: 18px;
+            margin: 0;
+            text-align: right;
+            font-weight: bold;
+        }
+
+        .card-one{
+            background-color: #f2f7fd;
+        }
+
+        .digit-one{
+            color: #5b94d7;
+        }
+
+        .text-one{
+            color: #5b94d7;
+        }
+
+        .card-two{
+            background-color: #d8f8eb;
+        }
+
+        .digit-two{
+            color: #5cc19a;
+        }
+
+        .text-two{
+            color: #5cc19a;
+        }
+
+        .card-three{
+            background-color: #f8f4d8;
+        }
+
+        .digit-three{
+            color: #dbca68;
+        }
+
+        .text-three{
+            color:#dbca68;
+        }
+
+        .card-four{
+            background-color: #f8d8d8;
+        }
+
+        .digit-four{
+            color: #b95e73;
+        }
+
+        .text-four{
+            color:#b95e73;
+        }
 
     </style>
     <body>
@@ -438,20 +513,28 @@
                 </div>
                 <div class="right-vision-cards-container">
                     <div class="vision-card card-one">
-                        <p class="text digit">6</p>
-                        <p class="text card-text">tried</p>
+                        <div class="vision-card-wrapper">
+                            <p class="text digit digit-one">6</p>
+                            <p class="text card-text text-one">tried</p>
+                        </div>
                     </div>
-                    <div class="vision-card card-one">
-                        <p class="text digit">267</p>
-                        <p class="text card-text">študentov</p>
+                    <div class="vision-card card-two">
+                        <div class="vision-card-wrapper">
+                            <p class="text digit digit-two">267</p>
+                            <p class="text card-text text-two">študentov</p>
+                        </div>
                     </div>
-                    <div class="vision-card card-one">
-                        <p class="text digit">12</p>
-                        <p class="text card-text">LabMastrov</p>
+                    <div class="vision-card card-three">
+                        <div class="vision-card-wrapper">
+                            <p class="text digit digit-three">12</p>
+                            <p class="text card-text text-three">LabMastrov</p>
+                        </div>
                     </div>
-                    <div class="vision-card card-one">
-                        <p class="text digit">2</p>
-                        <p class="text card-text">školy</p>
+                    <div class="vision-card card-four">
+                        <div class="vision-card-wrapper">
+                            <p class="text digit digit-four">2</p>
+                            <p class="text card-text text-four">školy</p>
+                        </div>
                     </div>
                 </div>
             </div>
