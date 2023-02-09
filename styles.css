@@ -263,6 +263,7 @@ body{
 .openlab-vision{
   height: 400px;
   display: flex;
+  padding: 48px 0px;
 }
 
 .vision-container{
@@ -388,4 +389,171 @@ body{
 
 .text-four{
   color:#b95e73;
+}
+
+.openlab-labs{
+  width: 100%;
+  padding: 3em 0;
+}
+
+.openlab-labs-container{
+  display: flex;
+  width: 73%;
+  margin: auto;
+  height: 240px;
+}
+
+.labs-header-wrapper{
+  width: 30%;
+  display: flex;
+}
+
+.labs-header{
+  font-size: 40px;
+  font-weight: 100;
+  margin: auto;
+}
+
+.labs-span-header{
+  font-weight: bold;
+  color: black;
+}
+
+.openlab-labs-cards-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+}
+
+.labs-vision-card{
+  padding: 24px 48px 48px;
+  position: relative;
+}
+
+.lab-card-header{
+  font-size: 20px;
+  margin: 0 0 .5em;
+}
+
+.lab-span-header{
+  font-weight: 100;
+  color: black;
+}
+
+.lab-card-text{
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 .5em;
+}
+
+.lab-card-icon{
+position: absolute;
+bottom: 45px;
+}
+
+.openlab-location{
+  width: 100%;
+  padding: 48px 0px;
+}
+
+.openlab-loc-container{
+  width: 73%;
+  margin: auto;
+  height: 524px;
+}
+
+.loc-header-wrapper{
+  height: 120px;
+}
+
+.loc-text-header{
+  text-align: center;
+  margin: 0;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.loc-span-header{
+  color: black;
+  font-weight: bold;
+}
+
+.loc-cards-container{
+  display: flex;
+  height: calc(100% - 120px);
+  gap: 135px;
+}
+
+.loc-card{
+  width: 50%;
+}
+
+.loc-image-wrapper{
+  width: 100%;
+  height: 55%;
+  background-color: #5b94d7;
+  border-radius: 20px;
+}
+
+.loc-card-info{
+  margin: 2em 0 1em 0;
+  height: calc(100% - 270px);
+}
+
+.location-address{
+  display: flex;
+  height: 24px;
+  margin-bottom: 1.5em;
+}
+
+.loc-school-name-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-address-name{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: center;
+}
+
+.school-loc{
+  margin: 0;
+  margin-left: 1em;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: center;
+}
+
+.loc-alert{
+  display: flex;
+  height: 15px;
+  margin-bottom: 1em;
+}
+
+.alert-text{
+  color: red;
+  font-weight: 400;
+}
+
+.loc-school-addr-wrapper{
+  text-align: end;
+  font-weight: bold;
+}
+
+.loc-web-address{
+  font-size: 18px;
+}
+
+.loc-school-addr-wrapper-right{
+  width: 40%;
+  text-align: end;
+  display: table;
+}
+
+.loc-web-address-right{
+  display: table-cell;
+  vertical-align: bottom;
+  font-weight: bold;
 }
