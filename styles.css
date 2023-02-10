@@ -560,7 +560,6 @@ bottom: 45px;
 
 .openlab-feedback{
   width: 100%;
-  background-color: #d8f8eb;
   height: 580px;
   display: flex;
 }
@@ -625,7 +624,7 @@ bottom: 45px;
   height: 30px;
   width: 110px;
   bottom: 105px;
-  right: 685px;
+  right: 710px;
 }
 
 .btn-prev{
@@ -633,9 +632,59 @@ bottom: 45px;
   height: 30px;
   width: 100px;
   bottom: 105px;
-  right: 800px;
+  right: 825px;
 }
 
 .students-image-wrapper{
   width: 60%;
+}
+
+.openlab-joinus{
+  width: 100%;
+  padding: 48px 0;
+  height: 500px;
+  background-color: #d8f8eb;
+  display: flex;
+}
+
+.joinus-container{
+  width: 73%;
+  height: 100%;
+  padding: 48px 0 0 0;
+  margin: auto;
+}
+
+.joinus-header{
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.joinus-text-span{
+  color: black;
+  font-weight: bold;
+}
+
+.joinus-card-wrapper {
+  display: flex;
+}
+
+.joinus-card{
+  padding: 24px 28px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.joinus-card-header{
+  font-size: 20px;
+  margin: 0 0 1em 0;
+}
+
+.joinus-card-parag{
+  margin: 0 0 1em 0;
+}
+
+.joinus-arrow-head{
+  position: absolute;
+  bottom: 0; 
 }
