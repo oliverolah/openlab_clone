@@ -557,3 +557,85 @@ bottom: 45px;
   vertical-align: bottom;
   font-weight: bold;
 }
+
+.openlab-feedback{
+  width: 100%;
+  background-color: #d8f8eb;
+  height: 580px;
+  display: flex;
+}
+
+.feedack-container{
+  width: 73%;
+  margin: auto;
+  padding: 48px 0 0 0;
+  display: flex;
+  height: calc(100% - 50px);
+  position: relative;
+}
+
+.feedback-wrapper{
+  width: 45%;
+  display: flex;
+}
+
+.text-feedaback-header{
+  font-size: 40px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.feedback-text-wrapper{
+  height: 100%;
+  padding: 100px 0 0 0;
+  height: calc(100% - 100px);
+}
+
+.span-feedback-header{
+  color: black;
+  font-weight: bold;
+}
+
+.feedback-card{
+  padding: 40px 20px 0 20px;
+}
+
+.feedback-testimony-text{
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 40px 0;
+}
+
+.student-name{
+  width: 100%;
+}
+
+.student{
+  margin: 0 0 .3em 0;
+  font-size: 14px;
+}
+
+.openlab-loc{
+  margin: 0;
+  font-size: 14px;
+}
+
+.btn-next{
+  position: absolute;
+  height: 30px;
+  width: 110px;
+  bottom: 105px;
+  right: 685px;
+}
+
+.btn-prev{
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  bottom: 105px;
+  right: 800px;
+}
+
+.students-image-wrapper{
+  width: 60%;
+}
