@@ -643,7 +643,6 @@ bottom: 45px;
   width: 100%;
   padding: 48px 0;
   height: 500px;
-  background-color: #d8f8eb;
   display: flex;
 }
 
@@ -687,4 +686,84 @@ bottom: 45px;
 .joinus-arrow-head{
   position: absolute;
   bottom: 0; 
+}
+
+.openlab-testimony{
+  width: 100%;
+  background-color: #d8f8eb;
+  height: 470px;
+  display: flex;
+}
+
+.joinus-testimony-wrapper{
+  width: 73%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  position: relative;
+  
+}
+
+.joinus-testimony-card{
+  position: absolute;
+  background-color: #b95e73;
+  width: 580px;
+  height: 470px;
+  top: -70px;
+  left: -80px;
+  border-radius: 6px;
+  display: flex;
+}
+
+.joinus-testimony-img-wrapper{
+  width: 75%;
+  height: 100%;
+  margin-left: auto;
+  background-color:#3597ff;
+  border-radius: 24px;
+  margin: auto;
+}
+
+.testimony-card-info-wrapper{
+  margin: 3.5em 2em;
+}
+
+.joinus-person{
+  font-size: 18px;
+  margin: 0 0 1em 0;
+  color: white;
+}
+
+.joinus-person-span{
+  font-weight: bold;
+}
+
+.joinus-line{
+  height: 1px;
+  width: 50px;
+  background-color: white;
+}
+
+.testimony-summary{
+ font-size: 24px;
+ line-height: 1.5;
+ margin: 24px 0; 
+}
+
+.testimony-parag{
+  margin: 0 0 48px 0;
+  color: white;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.joinus-name{
+  color: white;
+  margin: 0;
+  font-size: 16px;
+}
+
+.joinus-job-pos{
+  margin: .5em 0 0 0;
+  color: white;
 }
