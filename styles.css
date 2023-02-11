@@ -692,6 +692,7 @@ bottom: 45px;
   width: 100%;
   height: 470px;
   display: flex;
+  padding-bottom: 48px;
 }
 
 .joinus-testimony-wrapper{
@@ -767,7 +768,7 @@ bottom: 45px;
   color: white;
 }
 
-.horiz-scroller-wrapper{
+.horiz-scroller-wrapper-testimony{
   width: 100%;
   height: 10px;
   position: absolute;
@@ -777,13 +778,164 @@ bottom: 45px;
   justify-content: center;
 }
 
-.scroller-circle{
+.scroller-circle-testimony{
   width: 10px;
   height: 10px;
   background-color: aliceblue;
   border-radius: 50%;
 }
 
-.scroller-circle:nth-child(2){
+.scroller-circle-testimony:nth-child(2){
   background-color: #b95e73;
+}
+
+.openlab-projects{
+  width: 100%;
+  display: flex;
+  padding: 48px 0px;
+}
+
+.openlab-projects-container{
+  width: 73%;
+  margin: auto; 
+}
+
+.openlab-header-wrapper{
+  text-align: center;
+}
+
+.projects-header{
+  font-size: 40px;
+  font-weight: 100;
+  margin: 0 0 48px 0;
+}
+
+.projects-span-header{
+  font-weight: bold;
+  color: black;
+}
+
+.projects-parag{
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 0 6em;
+  margin: 0 6em 6em;
+}
+
+.openlab-projects-wrapper{
+  position: relative;
+}
+
+.projects-subheader{
+  font-size: 18px;
+  margin: 0 0 48px 0;
+}
+
+.projects-subheader-span{
+  color: black;
+  font-weight: bold;
+}
+
+.openlab-projects-line{
+  position: absolute;
+  height: 1px;
+  background-color: black;
+  width: 50px;
+  top: 45px;
+  left: 0;
+  margin: 0;
+}
+
+.horiz-scroller-wrapper-testimony{
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.projects-testimonies-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 48px 0;
+}
+
+.project-text-wrapper{
+  margin: auto 0;
+  width: 40%;
+}
+
+.project-card-header{
+  font-size: 28px;
+  color: black;
+  font-weight: 400;
+  margin: 0 0 48px 0;
+}
+
+.project-parag{
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 16px 0;
+  padding: 0 20px 0 0;
+}
+
+.project-card-span{
+  color: black;
+  font-weight: bold;
+}
+
+.project-video-wrapper{
+  background-color: #5b94d7;
+  width: 50%;
+}
+
+.projects-btn-wrapper{
+  width: 100%;
+}
+
+.proj-btn-prev{
+  padding: .3em .8em;
+}
+
+.proj-btn-next{
+  padding: .3em .8em;
+}
+
+.horiz-scroller-wrapper-proj{
+  padding-top: 16px;
+  width: 100%;
+  height: 10px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.scroller-circle-proj{
+  width: 10px;
+  height: 10px;
+  background-color: #55a0f6;
+  border-radius: 50%;
+}
+
+.scroller-circle-proj:nth-child(2){
+  background-color: #b95e73;
+}
+
+.projects-all-link{
+  display: flex;
+}
+
+.projects-all-link, a{
+  font-size: 16px;
+  margin-right: .5em;
+}
+
+.openlab-proj-line{
+  width: 73%;
+  background-color: black;
+  height: 1px;
+  margin: auto;
 }
