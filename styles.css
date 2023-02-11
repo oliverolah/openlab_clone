@@ -690,7 +690,6 @@ bottom: 45px;
 
 .openlab-testimony{
   width: 100%;
-  background-color: #d8f8eb;
   height: 470px;
   display: flex;
 }
@@ -766,4 +765,25 @@ bottom: 45px;
 .joinus-job-pos{
   margin: .5em 0 0 0;
   color: white;
+}
+
+.horiz-scroller-wrapper{
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.scroller-circle{
+  width: 10px;
+  height: 10px;
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+
+.scroller-circle:nth-child(2){
+  background-color: #b95e73;
 }
