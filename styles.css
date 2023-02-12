@@ -1059,3 +1059,49 @@ bottom: 45px;
   margin: 0;
   line-height: 1.5;
 }
+
+.openlab-support{
+  width: 100%;
+  background-color: #d8f8eb;
+  padding: 48px 0;
+}
+
+.openlab-support-container{
+  width: 73%;
+  margin: auto;
+  display: flex;
+}
+
+.support-image-wrapper{
+  width: 50%;
+  height: 400px;
+  background-color: #5b94d7;
+  padding-right: 12px;
+}
+
+.support-text-container{
+  width: 50%;
+  display: flex;
+  padding-left: 12px;
+}
+
+.support-text-wrapper{
+  margin: auto 0;
+}
+
+.support-header{
+  font-size: 32px;
+  margin: 0 0 24px 0;
+}
+
+.support-parag{
+  font-size: 16px;
+  margin: 0 0 48px 0;
+  line-height: 1.5;
+}
+
+.support-link-wrapper{
+  margin: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
