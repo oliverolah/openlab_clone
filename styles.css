@@ -998,3 +998,64 @@ bottom: 45px;
   font-size: 16px;
   line-height: 1.5;
 }
+
+.team-openlab{
+  width: 100%;
+  padding: 48px 0;
+}
+
+.team-openlab-container{
+  width: 73%;
+  margin: auto;
+}
+
+.team-openlab-header-wrapper{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.team-openlab-header{
+  font-size: 40px;
+  margin: 0;
+  padding: 24px 12px;
+}
+
+.team-openlab-founders-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 25px;
+  row-gap: 56px;
+}
+
+.founder-card{
+  width: 290px;
+}
+
+.founder-img-wrapper{
+  width: 100%;
+  height: 340px;
+  background-color: #3597ff;
+}
+
+.founder-info-wrapper{
+  margin: 0;
+  padding: 16px 0 0 0;
+}
+
+.founder-pos{
+  font-size: 14px;
+  margin: 0 0 8px 0;
+}
+
+.founder-name{
+  font-size: 20px;
+  margin: 16px 0 0 0;
+}
+
+.founder-job-pos{
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.5;
+}
