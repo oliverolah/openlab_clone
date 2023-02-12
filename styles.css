@@ -97,6 +97,7 @@ body{
   cursor: pointer;
   font-weight: bold;
   border: none;
+  font-size: 16px;
 }
 
 .dropdown-content {
@@ -938,4 +939,62 @@ bottom: 45px;
   background-color: black;
   height: 1px;
   margin: auto;
+}
+
+.openlab-whyus{
+  width: 100%;
+  padding: 48px 0;
+  margin-top: 48px;
+}
+
+.whyus-container{
+  width: 73%;
+  margin: auto;
+}
+
+.whyus-header-wrapper{
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.whyus-header{
+  font-size: 40px;
+  margin: 0 0 48px 0;
+  font-weight: 100;
+}
+
+.whyus-span-header{
+  color: black;
+  font-weight: bold;
+}
+
+.whyus-cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 12px;
+  row-gap: 36px;
+}
+
+.whyus-card{
+  width: 350px;
+}
+
+.whyus-img-wrapper{
+  width: 100%;
+  height: 45px;
+}
+
+.whyus-text-wrapper{
+  width: 100%;
+}
+
+.whyus-card-header{
+  margin: 0 0 24px 0;
+  font-size: 20px;
+}
+
+.whyus-parag{
+  font-size: 16px;
+  line-height: 1.5;
 }
