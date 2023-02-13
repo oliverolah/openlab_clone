@@ -1263,3 +1263,53 @@ bottom: 45px;
   height: 100px;
   background-color: #5b94d7;
 }
+
+.openlab-newsletter{
+  width: 100%;
+  padding: 48px 0;
+}
+
+.newsletter-container{
+  width: 73%;
+  margin: auto;
+  display: flex;
+  background-color: rgb(197, 233, 245);
+  padding: 28px 68px;
+  border-radius: 8px;
+}
+
+.newsletter-text-wrapper{
+  width: 50%;
+}
+
+.newsletter-text{
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.newsletter-span-text{
+  color: black;
+  font-weight: bold;
+}
+
+.newsletter-form{
+  margin: auto 0;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  position: relative;
+}
+
+.newsletter-input-field{
+  width: 580px;
+  padding: 10px 60px 10px 20px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.newsletter-spinner-btn-logo{
+  position: absolute;
+  right: 30px;
+  bottom: 8px;
+}
+
