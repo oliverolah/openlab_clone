@@ -1149,3 +1149,16 @@ bottom: 45px;
   height: 100px;
   background-color: #5b94d7;
 }
+
+.openlab-insta-board{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.insta-card{
+  background-color:#55a0f6;
+  flex-grow: 1;
+  height: 200px;
+  border: 1px solid black;
+}
