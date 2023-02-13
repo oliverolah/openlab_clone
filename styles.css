@@ -1162,3 +1162,65 @@ bottom: 45px;
   height: 200px;
   border: 1px solid black;
 }
+
+.openlab-mdrnschool{
+  width: 100%;
+  padding: 48px 0;
+  background-color: #d8f8eb;
+}
+
+.mdrnschool-container{
+  width: 73%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mdrnschool-text-wrapper{
+  width: 40%;
+  display: flex;
+}
+
+.mdrnschool-header{
+  font-size: 40px;
+  font-weight: 100;
+  margin: 0 0 16px 0;
+}
+
+.mdrnschool-span-text{
+  font-weight: bold;
+  color: black;
+}
+
+.mdrnschool-parag{
+  font-size: 16px;
+  margin: 0 0 24px 0;
+  line-height: 1.5;
+}
+
+.mdrnschool-media-links{
+  width: 100%;
+  display: flex;
+  margin: 0 0 24px 0;
+}
+
+.btn-mdrnschool{
+  padding: 18px 50px;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.mdrn-text-container{
+  margin: auto 0;
+}
+
+.mdrnschool-img-container{
+  width: 50%;
+  background-color: #5b94d7;
+  height: 300px;
+}
+
