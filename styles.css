@@ -1271,7 +1271,7 @@ bottom: 45px;
 
 .newsletter-container{
   width: 73%;
-  margin: auto;
+  margin: 0 auto 48px auto;
   display: flex;
   background-color: rgb(197, 233, 245);
   padding: 28px 68px;
@@ -1285,6 +1285,7 @@ bottom: 45px;
 .newsletter-text{
   font-size: 20px;
   font-weight: 100;
+  line-height: 1.5;
 }
 
 .newsletter-span-text{
@@ -1292,12 +1293,13 @@ bottom: 45px;
   font-weight: bold;
 }
 
-.newsletter-form{
-  margin: auto 0;
+.form-wrapper{
   display: flex;
-  width: 50%;
-  justify-content: center;
+}
+
+.newsletter-form{
   position: relative;
+  margin: auto 0;
 }
 
 .newsletter-input-field{
@@ -1313,3 +1315,7 @@ bottom: 45px;
   bottom: 8px;
 }
 
+.openlab-footer{
+  width: 100%;
+  background-color: #d8f8eb;
+}
