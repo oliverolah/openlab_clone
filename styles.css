@@ -68,6 +68,7 @@ body{
 
 .logo-link{
   text-decoration: none;
+  margin-right: 60px;
   color: black;
   font-size: 1.5em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1221,7 +1222,7 @@ bottom: 45px;
 .mdrnschool-img-container{
   width: 50%;
   background-color: #5b94d7;
-  height: 300px;
+  height: 340px;
 }
 
 .openlab-supporters{
@@ -1274,8 +1275,15 @@ bottom: 45px;
   margin: 0 auto 48px auto;
   display: flex;
   background-color: rgb(197, 233, 245);
-  padding: 28px 68px;
   border-radius: 8px;
+}
+
+.newsletter-paddinger{
+  padding: 28px 0;
+  display: flex;
+  gap: 100px;
+  margin: auto;
+  width: 85%;
 }
 
 .newsletter-text-wrapper{
@@ -1285,7 +1293,6 @@ bottom: 45px;
 .newsletter-text{
   font-size: 20px;
   font-weight: 100;
-  line-height: 1.5;
 }
 
 .newsletter-span-text{
@@ -1303,7 +1310,7 @@ bottom: 45px;
 }
 
 .newsletter-input-field{
-  width: 580px;
+  width: 400px;
   padding: 10px 60px 10px 20px;
   border-radius: 8px;
   border: 1px solid black;
@@ -1318,4 +1325,82 @@ bottom: 45px;
 .openlab-footer{
   width: 100%;
   background-color: #d8f8eb;
+  padding: 48px 0;
 }
+
+.footer-container{
+  width: 73%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: space-between;
+}
+
+.link-logo{
+  font-size: 22.5px;
+  font-weight: bold;
+}
+
+.openlab-footer-logo{
+  display: flex;
+  margin-right: 5em;
+}
+
+.footer-logo-wrapper{
+  margin: auto 0; 
+}
+
+.footer-openlab-fullname{
+  font-size: 13px;
+  margin: 8px 0 0 0;
+}
+
+.footer-openlab-span-text{
+  font-weight: bold;
+  color: black;
+}
+
+.openlab-address-info{
+  display: flex;
+  margin-right: 5em;
+}
+
+.footer-addr-wrapper{
+  margin-top: auto;
+}
+
+.ico-info{
+  margin: 0 0 .2em 0;
+  font-size: 13px;
+}
+
+.addr-info{
+  margin: 0;
+  font-size: 13px;
+}
+
+.openlab-contact-email{
+  display: flex;
+  margin-right: 5em;
+}
+
+.footer-em-wrapper{
+  margin-top: auto;
+}
+
+.openlab-email-addr{
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.openlab-social-media-links{
+  display: flex;
+}
+
+.social-media-wrapper{
+  margin-top: auto;
+  display: flex;
+  justify-content: end;
+}
+

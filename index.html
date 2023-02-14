@@ -639,15 +639,17 @@
         <!-- Section 17 -->
         <section class="openlab-newsletter">
             <div class="newsletter-container">
-                <div class="newsletter-text-wrapper">
-                    <h5 class="text newsletter-text">Prihláste sa do nášho newslettra a budete mať </br> <span class="newsletter-span-text">čerstvé informácie o živote v OpenLabe.</span></h5>
-                </div>
-                <div class="form-wrapper">
-                    <form method="post" class="newsletter-form" novalidate="novalidate">
-                        <input class="newsletter-input-field" type="email" name="your-email" value size="40" required="true" placeholder="Sem napíšte svoj e-mail">
-                        <input type="submit" value="-" class="newsletter-spinner-btn-logo">
-                        <span class="spinner-logo"></span>
-                    </form>
+                <div class="newsletter-paddinger">
+                    <div class="newsletter-text-wrapper">
+                        <h5 class="text newsletter-text">Prihláste sa do nášho newslettra a budete mať </br> <span class="newsletter-span-text">čerstvé informácie o živote v OpenLabe.</span></h5>
+                    </div>
+                    <div class="form-wrapper">
+                        <form method="post" class="newsletter-form" novalidate="novalidate">
+                            <input class="newsletter-input-field" type="email" name="your-email" value size="40" required="true" placeholder="Sem napíšte svoj e-mail">
+                            <input type="submit" value="-" class="newsletter-spinner-btn-logo">
+                            <span class="spinner-logo"></span>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -656,26 +658,35 @@
         <footer class="openlab-footer">
             <div class="footer-container">
                 <div class="openlab-footer-logo">
-                    <img src="#" alt="Openlab Logo">
-                    <p class="text footer-openlab-fullname">&copy; Všetky práva vyhradené <span class="footer-openlab-span-text">OPENLAB, o.z.,</span></p>
+                    <div class="footer-logo-wrapper">
+                        <a class="link-logo" href="#">OpenLab</a>
+                        <!-- <img src="#" alt="Openlab Logo"> -->
+                        <p class="text footer-openlab-fullname">&copy; Všetky práva vyhradené <span class="footer-openlab-span-text">OPENLAB, o.z.,</span></p>
+                    </div>
                 </div>
                 <div class="openlab-address-info">
-                    <p class="text ico-info">IČO: 50764675</p>
-                    <p class="text addr-info">Viedenská cesta 257, 805 01 Bratislava</p>
+                    <div class="footer-addr-wrapper">
+                        <p class="text ico-info">IČO: 50764675</p>
+                        <p class="text addr-info">Viedenská cesta 257, 805 01 Bratislava</p>
+                    </div>
                 </div>
                 <div class="openlab-contact-email">
-                    <a href="#">info@openlab.sk</a>
+                    <div class="footer-em-wrapper">
+                        <a class="openlab-email-addr" href="#">info@openlab.sk</a>
+                    </div>
                 </div>
                 <div class="openlab-social-media-links">
-                    <a href="#">
-                        <img src="#" alt="Facebook Logo">
-                    </a>
-                    <a href="#">
-                        <img src="#" alt="LinkedIn Logo">
-                    </a>
-                    <a href="#">
-                        <img src="#" alt="Instagram Logo">
-                    </a>
+                    <div class="social-media-wrapper">
+                        <a class="social-media-link" href="#">
+                            <img src="#" alt="Facebook Logo">
+                        </a>
+                        <a class="social-media-link" href="#">
+                            <img src="#" alt="LinkedIn Logo">
+                        </a>
+                        <a class="social-media-link" href="#">
+                            <img src="#" alt="Instagram Logo">
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
