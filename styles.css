@@ -80,15 +80,15 @@ body{
 }        
 
 .navbar-wrapper{
-  margin-right: 20rem;
+  margin-right: 15em;
 }
 
-.navbar-wrapper, a{
+.navbar-link{
   text-decoration: none;
   color: black;
   font-family: 'SF Pro Display', sans-serif;
   gap: .5em;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .dropdown-btn{
@@ -130,7 +130,7 @@ body{
 .btn-signup{
   border: 1px solid black;
   border-radius: 6px;
-  width: 20em;
+  width: 17em;
   padding: 12px 0px;
   background-color: inherit;
   cursor: pointer;
