@@ -96,3 +96,34 @@ body{
   background-color: black;
   color:white
 }
+
+.form-section{
+  width: 100%;
+  display: flex;
+  padding: 48px 0;
+}
+
+.form-container{
+  width: 50%;
+  margin: auto;
+  background-color: #d7eaff;
+  border-radius: 8px;
+  padding: 40px 60px;
+}
+
+.basic-credentials-wrapper{
+  background-color: aqua;
+  margin-bottom: 3em;
+}
+
+.credential-label{
+  font-size: 18px;
+}
+
+.credential-input-field{
+  width: calc(100% - 42px);
+  margin: .5em auto 2em auto;
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
