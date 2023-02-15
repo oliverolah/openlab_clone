@@ -19,7 +19,7 @@
         </div>
         <div class="nav-menu">
             <div class="navbar-wrapper">
-                <a class="text navbar-link" href="#">Uvod</a>
+                <a class="text navbar-link" href="./index.html">Uvod</a>
                 <div class="dropdown">
                     <button class="text dropdown-btn">OpenLab
                         <!-- <img src="#" alt="Dropdown icon"> -->
@@ -41,6 +41,90 @@
         </div>
     </div>
   </nav>
+
+  <!-- Form Section -->
+  <section class="form-section">
+    <form class="openlab-form">
+      <fieldset>
+        <legend>Meno a priezvysko</legend>
+        <label for="fname">Meno:</label><br>
+        <input type="text" name="fname" placeholder="Napíšte svoje meno...">
+        <br>
+        <br>
+        <label for="lname">Priezvysko:</label><br>
+        <input type="text" name="lname" placeholder="Napíšte svoje priezvysko...">
+      </fieldset>
+      <br>
+      <br>
+      <label for="pohlavie">Pohlavie:</label><br>
+      <input type="radio" name="pohlavie"><label for="male">Muž</label><br>
+      <input type="radio" name="pohlavie"><label for="male">Žena</label>
+      <br>
+      <br>
+      <label for="sports">Športy:</label><br>
+      <input type="checkbox" name="football"><label for="football"> Football</label><br>
+      <input type="checkbox" name="Hockey"><label for="hockey">Hockey</label>
+      <br>
+      <br>
+      <label for="cars">Vyberte si obľúbenú značku auta:</label>
+      <select name="car-brands">
+        <option value="tesla" selected>Tesla</option>
+        <option value="bmw">BMW</option>
+        <option value="volvo">Volvo</option>
+        <option value="audi">Audi</option>
+      </select>
+      <br>
+      <br>
+      <label for="cars-pt2">Vyberte si obľúbenú značku auta pt2"</label>
+      <select name="car-brands-pt2" size="3">
+        <option value="skoda">Skoda</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="bentley">Bentley</option>
+        <option value="ford">Ford</option>
+        <option value="ferrari">Ferrari</option>
+      </select>
+    </form>
+    <br>
+    <br>
+    <label for="cars-pt2">Vyberte si obľúbenú značku auta pt3"</label>
+      <select name="car-brands-pt3" size="3" multiple>
+        <option value="opel">Opel</option>
+        <option value="citroen">Citroen</option>
+        <option value="sear">Seat</option>
+        <option value="wolkswagen">Wolkswagen</option>
+        <option value="peugeot">Peugeot</option>
+      </select>
+      <br>
+      <br>
+      <textarea name="message" cols="30" rows="10" placeholder="Povedz nám o sebe..."></textarea>
+      <br>
+      <br>
+      <input list="football-clubs">
+      <datalist id="football-clubs">
+        <option value="FC Barcelona">
+        <option value="Real Madrid">
+        <option value="Man Utd">
+        <option value="Man City">
+        <option value="PSG">
+      </datalist>
+      <br>
+      <br>
+      <label for="cars">Choose a football team:</label>
+      <select  name="football-teams">
+        <optgroup label="Spanish Teams">
+          <option value="fcbarcelona">FC Barcelona</option>
+          <option value="realmadrid">Real Madrid</option>
+        </optgroup>
+        <optgroup label="German Teams">
+          <option value="bvb">BVB</option>
+          <option value="bayernmunich">Bayern Munich</option>
+        </optgroup>
+      </select>
+      <br>
+      <br>
+      <input type="submit" value="Odoslať">
+    </form>
+  </section>
 
 </body>
 </html>
