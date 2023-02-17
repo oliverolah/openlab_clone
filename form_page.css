@@ -1,10 +1,16 @@
+:root{
+  --f-size-label: 20px;
+  --font: 'SF Pro Display', sans-serif;
+  --box-mb: 48px;
+}
+
 body{
   margin: 0;
   width: 100%;
 }
 
 .text{
-  font-family: 'SF Pro Display', sans-serif;
+  font-family: var(--font);
 }
 
 .navbar-container {
@@ -98,7 +104,6 @@ body{
 }
 
 .form-section{
-  width: 100%;
   display: flex;
   padding: 48px 0;
 }
@@ -112,12 +117,11 @@ body{
 }
 
 .basic-credentials-wrapper{
-  background-color: aqua;
-  margin-bottom: 3em;
+  margin-bottom: var(--box-mb);
 }
 
 .credential-label{
-  font-size: 18px;
+  font-size: var(--f-size-label);
 }
 
 .credential-input-field{
@@ -126,4 +130,112 @@ body{
   padding: 12px 20px;
   border-radius: 6px;
   border: 1px solid black;
+}
+
+.credential-input-field:last-child{
+  margin-bottom: 0;
+}
+
+.age-gender{
+  margin-bottom: var(--box-mb);
+}
+
+.age-gender-label{
+  font-size: var(--f-size-label);
+}
+
+.gender-info{
+  margin-bottom: 1em;
+}
+
+.age-gender-options{
+  padding-top: .5em;
+}
+
+.age-gender-options, input [type=radio]{
+  font-family: var(--font);
+  font-style: italic;
+}
+
+.tech-academy-info{
+  margin-bottom: var(--box-mb);
+  display: flex;
+}
+
+.tech-academy-label{
+  font-size: var(--f-size-label);
+  margin: auto 0;
+}
+
+.tech-academy-info select{
+  padding: 3px 7px;
+  margin-left: .5em;
+}
+
+.tech-languages{
+  margin-bottom: var(--box-mb);
+  display: flex;
+}
+
+.tech-languages-label{
+  font-size: var(--f-size-label);
+  margin: auto 0;
+}
+
+.tech-languages select{
+  padding: 3px 7px;
+  margin-left: .5em;
+}
+
+.tech-frameworks{
+  margin-bottom: var(--box-mb);
+  display: flex;
+}
+
+.tech-frameworks-label{
+  font-size: var(--f-size-label);
+  margin: auto 0;
+}
+
+.tech-frameworks select{
+  padding: 3px 7px;
+  margin-left: .5em;
+}
+
+textarea{
+width: calc(100% - 6px);
+border-radius: 8px;
+border: 1px solid black;
+padding: 3px 7px;
+font-family: var(--font);
+margin-bottom: var(--box-mb);
+}
+
+.academy-loc{
+  margin-bottom: var(--box-mb);
+  display: flex;
+}
+
+.academy-loc-label{
+  font-size: var(--f-size-label);
+  margin: auto 0;
+}
+
+.academy-loc select{
+  padding: 3px 7px;
+  margin-left: .5em;
+}
+
+.submit-btn{
+  border: 1px solid #16de00;
+  border-radius: 6px;
+  width: 100%;
+  padding: 12px 0px;
+  background-color: #16de00;
+  cursor: pointer;
+}
+
+.submit-btn:hover{
+  background-color: #2be915;
+  border: 1px solid #2be915;
 }

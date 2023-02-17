@@ -56,72 +56,66 @@
           <label class="text credential-label" for="repeat-pwd">Potvrdiť heslo:</label><br>
           <input class="credential-input-field" type="text" name="repeat-pwd" placeholder="Napíšte svoje priezvysko...">
         </div>
-        <label for="pohlavie">Pohlavie:</label><br>
-        <input type="radio" name="pohlavie"><label for="male">Muž</label><br>
-        <input type="radio" name="pohlavie"><label for="male">Žena</label>
-        <br>
-        <br>
-        <label for="age">Vek:</label><br>
-        <input type="checkbox" name="above-eighteen"><label for="football">nad 18r.</label><br>
-        <input type="checkbox" name="below-eighteen"><label for="hockey">pod 18r.</label>
-        <br>
-        <br>
-        <label for="academy">Vyberte si akadémiu:</label>
-        <select name="academy-segment">
-          <option value="frontend" selected>Frontend</option>
-          <option value="backend">Backend</option>
-          <option value="fullstack">Fullstack</option>
-          <option value="PM">PM</option>
-        </select>
-        <br>
-        <br>
-        <label for="languages">Programovacie jazyky:</label>
-        <select name="programming-languages" size="3" multiple>
-          <option value="html">HTML</option>
-          <option value="css">CSS</option>
-          <option value="javascript">JavaScript</option>
-          <option value="python">Python</option>
-          <option value="php">PHP</option>
-          <option value="go">Go</option>
-          <option value="java">Java</option>
-        </select>
-        <br>
-        <br>
-        <label for="cars-pt2">Frameworks:</label>
-        <select name="car-brands-pt2" size="3">
-          <option value="skoda">React.js</option>
-          <option value="mercedes">Vue.js</option>
-          <option value="bentley">Next.js</option>
-          <option value="ford">Django</option>
-          <option value="ferrari">Flask</option>
-        </select>
-        <br>
-        <br>
-        <textarea name="message" cols="30" rows="10" placeholder="Povedz nám o sebe..."></textarea>
-        <br>
-        <br>
-        <input list="football-clubs">
-        <datalist id="football-clubs">
-          <option value="FC Barcelona">
-          <option value="Real Madrid">
-          <option value="Man Utd">
-          <option value="Man City">
-          <option value="PSG">
-        </datalist>
-        <br>
-        <br>
-        <label for="skoly-openlabu">Miesto návštevy OpenLabu</label>
-        <select  name="skoly-openlabu">
-          <optgroup label="Bratislava">
-            <option value="halova">Hálova 16</option>
-          </optgroup>
-          <optgroup label="Kysucké Nové Mesto">
-            <option value="nabrezna">Nábrežná 1325</option>
-          </optgroup>
-        </select>
-        <br>
-        <br>
-        <input type="submit" value="Odoslať">
+        <div class="age-gender">
+          <div class="gender-info">
+            <label class="text age-gender-label" for="pohlavie">Pohlavie:</label>
+            <div class="age-gender-options">
+              <input class="gender-opt" type="radio" name="pohlavie"><label for="male">Muž</label>
+              <input class="gender-opt" type="radio" name="pohlavie"><label for="male">Žena</label>
+            </div>
+          </div>
+          <div class="age-info">
+            <label class="text age-gender-label" for="age">Vek:</label><br>
+            <div class="age-gender-options">
+              <input type="checkbox" name="above-eighteen"><label for="football">nad 18r.</label>
+              <input type="checkbox" name="below-eighteen"><label for="hockey">pod 18r.</label>
+            </div>
+          </div>
+        </div>
+        <div class="tech-academy-info">
+        <label class="text tech-academy-label" for="academy">Vyberte si akadémiu:</label>
+          <select name="academy-segment">
+            <option value="frontend" selected>Frontend</option>
+            <option value="backend">Backend</option>
+            <option value="fullstack">Fullstack</option>
+            <option value="PM">PM</option>
+          </select>
+        </div>
+        <div class="tech-languages">
+        <label class="text tech-languages-label" for="languages">Programovacie jazyky:</label>
+          <select name="programming-languages" size="3" multiple>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="php">PHP</option>
+            <option value="go">Go</option>
+            <option value="java">Java</option>
+          </select>
+        </div>
+        <div class="tech-frameworks">
+          <label class="text tech-frameworks-label" for="tech-frameworks">Frameworks:</label>
+          <select name="tech-frameworks" size="3">
+            <option value="skoda">React.js</option>
+            <option value="mercedes">Vue.js</option>
+            <option value="bentley">Next.js</option>
+            <option value="ford">Django</option>
+            <option value="ferrari">Flask</option>
+          </select>
+        </div>
+        <textarea name="message" cols="30" rows="10" placeholder="Povedz nám o sebe..."></textarea> 
+        <div class="academy-loc">
+          <label class="text academy-loc-label" for="skoly-openlabu">Miesto návštevy OpenLabu</label>
+          <select  name="skoly-openlabu">
+            <optgroup label="Bratislava">
+              <option value="halova">Hálova 16</option>
+            </optgroup>
+            <optgroup label="Kysucké Nové Mesto">
+              <option value="nabrezna">Nábrežná 1325</option>
+            </optgroup>
+          </select>
+        </div>
+        <input class="submit-btn" type="submit" value="Odoslať">
       </form>
     </div>
   </section>
