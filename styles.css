@@ -101,6 +101,7 @@ body{
   font-weight: bold;
   border: none;
   font-size: 14px;
+  display: flex;
 }
 
 .dropdown-content {
@@ -127,6 +128,10 @@ body{
 
 .dropdown-content a:hover {
   font-weight: bold;
+}
+
+.dropdown-arrow-icon{
+  margin: auto 0 auto .5em;
 }
 
 .btn-signup{
