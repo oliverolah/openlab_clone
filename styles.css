@@ -1516,6 +1516,7 @@ transition: .3s;
   width: 200px;
   height: 100px;
   display: flex;
+  margin-top: 48px;
 }
 
 .supp-image-logo{
@@ -1613,8 +1614,11 @@ transition: .3s;
 
 .openlab-footer{
   width: 100%;
-  background-color: #d8f8eb;
   padding: 48px 0;
+  position: relative;
+  height: 60px;
+  margin-bottom: auto;
+  overflow: hidden;
 }
 
 .footer-container{
@@ -1643,16 +1647,18 @@ transition: .3s;
 .footer-openlab-fullname{
   font-size: 13px;
   margin: 8px 0 0 0;
+  color: #566b8d;
 }
 
 .footer-openlab-span-text{
   font-weight: bold;
-  color: black;
+  color: #566b8d;
 }
 
 .openlab-address-info{
   display: flex;
   margin-right: 5em;
+  color: #566b8d;
 }
 
 .footer-addr-wrapper{
@@ -1681,6 +1687,7 @@ transition: .3s;
 .openlab-email-addr{
   font-size: 13px;
   text-decoration: underline;
+  color: #566b8d;
 }
 
 .openlab-social-media-links{
@@ -1691,5 +1698,12 @@ transition: .3s;
   margin-top: auto;
   display: flex;
   justify-content: end;
+  gap: 15px;
+}
+
+.footer-block-img{
+  position: absolute;
+  right: 85px;
+  bottom: -30px;
 }
 
