@@ -496,6 +496,7 @@ color: #5c7091;
 .openlab-location{
   width: 100%;
   padding: 48px 0px;
+  position: relative;
 }
 
 .openlab-loc-container{
@@ -614,6 +615,14 @@ color: #5c7091;
   display: table-cell;
   vertical-align: bottom;
   font-weight: bold;
+}
+
+.openlab-location-img{
+  position: absolute;
+  width: 400px;
+  height: 580px;
+  right: -210px;
+  bottom: -285px;
 }
 
 .openlab-feedback{
