@@ -1384,16 +1384,20 @@ transition: .3s;
   padding: 0 12px;
   display: flex;
   flex-wrap: wrap;
-  width: 60%;
+  width: 75%;
   justify-content: center;
-  column-gap: 32px;
-  row-gap: 32px;
+  column-gap: 35px;
 }
 
 .sponsor-img-wrapper{
-  width: 220px;
+  width: 240px;
   height: 100px;
-  background-color: #5b94d7;
+  /* background-color: #abc0d7; */
+  display: flex;
+}
+
+.sponsor-logo-image{
+  
 }
 
 .openlab-insta-board{
