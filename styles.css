@@ -74,7 +74,7 @@ body{
 }        
 
 .navbar-wrapper{
-  margin-right: 20em;
+  margin-right: 17em;
 }
 
 .image-link, a{
@@ -191,6 +191,23 @@ body{
 
 .hero-image-wrapper{
   width: 60%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-image{
+  width: 540px;
+  position: absolute;
+  bottom: 0;
+}
+
+.hero-right-circle{
+  width: 482px;
+  height: 482px;
+  position: absolute;
+  right: -236px;
+  bottom: 146px;
 }
 
 .why-openlab{
