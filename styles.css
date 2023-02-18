@@ -1303,8 +1303,13 @@ transition: .3s;
 .support-image-wrapper{
   width: 50%;
   height: 400px;
-  background-color: #5b94d7;
   padding-right: 12px;
+}
+
+.support-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .support-text-container{
@@ -1331,13 +1336,25 @@ transition: .3s;
 .support-link-wrapper{
   margin: 0;
   font-size: 16px;
+  display: flex;
   cursor: pointer;
+}
+
+.support-link-text{
+  color: #3597ff;
+  text-decoration: none;
+  margin-right: .2em;
+}
+
+.support-right-link-icon{
+  color: #3597ff;
 }
 
 .openlab-sponsors{
   width: 100%;
   height: 300px;
   display: flex;
+  padding: 48px 0px;
 }
 
 .sponsors-container{
