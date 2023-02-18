@@ -98,10 +98,13 @@ body{
   padding: .5em 1em;
   background-color: inherit;
   cursor: pointer;
-  font-weight: bold;
   border: none;
   font-size: 14px;
   display: flex;
+}
+
+.dropdown-btn:hover{
+  color: #0d6efd;
 }
 
 .dropdown-content {
@@ -128,6 +131,7 @@ body{
 
 .dropdown-content a:hover {
   font-weight: bold;
+  color: #0d6efd;
 }
 
 .dropdown-arrow-icon{
