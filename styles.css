@@ -1562,7 +1562,7 @@ transition: .3s;
   width: 73%;
   margin: 0 auto 48px auto;
   display: flex;
-  background-color: rgb(197, 233, 245);
+  background-color:#d7eaff;
   border-radius: 8px;
 }
 
@@ -1604,10 +1604,11 @@ transition: .3s;
   border: 1px solid black;
 }
 
-.newsletter-spinner-btn-logo{
+.spinner-logo{
   position: absolute;
-  right: 30px;
-  bottom: 8px;
+  right: 20px;
+  bottom: 10px;
+  color: #3597ff;
 }
 
 .openlab-footer{
