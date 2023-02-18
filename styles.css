@@ -1,6 +1,7 @@
 body{
   margin: 0;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .text{
@@ -1140,15 +1141,14 @@ transition: .3s;
   border-bottom: 1px solid #d7eaff;
   height: 1px;
   margin: auto;
-  z-index: 2;
+  margin-bottom: 48px;
 }
 
 .openlab-proj-image-circle{
   position: absolute;
   width: 435px;
   bottom: -290px;
-  left: -190px;
-  z-index: 1;
+  left: -230px;
 }
 
 .openlab-whyus{
@@ -1158,6 +1158,7 @@ transition: .3s;
 }
 
 .whyus-container{
+  padding: 48px 12px 0 12px;
   width: 73%;
   margin: auto;
 }
@@ -1197,6 +1198,7 @@ transition: .3s;
 
 .whyus-text-wrapper{
   width: 100%;
+  padding: 24px 0 16px;
 }
 
 .whyus-card-header{
@@ -1207,6 +1209,14 @@ transition: .3s;
 .whyus-parag{
   font-size: 16px;
   line-height: 1.5;
+  color: #566b8d;
+}
+
+.openlab-whyus-line{
+  width: 73%;
+  border-bottom: 1px solid #d7eaff;
+  height: 1px;
+  margin: auto;
 }
 
 .team-openlab{
