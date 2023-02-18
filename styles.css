@@ -629,6 +629,7 @@ color: #5c7091;
   width: 100%;
   height: 580px;
   display: flex;
+  background-color: #f3f9ff;
 }
 
 .feedack-container{
@@ -652,9 +653,9 @@ color: #5c7091;
 }
 
 .feedback-text-wrapper{
-  height: 100%;
   padding: 100px 0 0 0;
   height: calc(100% - 100px);
+  width: 100%;
 }
 
 .span-feedback-header{
@@ -664,46 +665,100 @@ color: #5c7091;
 
 .feedback-card{
   padding: 40px 20px 0 20px;
+  position: relative;
+  height: calc(100% - 200px)
+}
+
+.quotation-icon{
+  z-index: 1;
+  position: absolute;
 }
 
 .feedback-testimony-text{
   font-size: 16px;
   line-height: 1.5;
   margin: 0 0 40px 0;
+  z-index: 2;
+  position: absolute;
+  top: 70px;
+  left: 35px;
+  color: #566b8d;
+}
+
+.me-wrapper{
+  position: absolute;
+  bottom: 0;
+  display: flex;
 }
 
 .student-name{
   width: 100%;
+  margin-left: .5em;
 }
 
 .student{
   margin: 0 0 .3em 0;
   font-size: 14px;
+  color: #566b8d;
 }
 
 .openlab-loc{
   margin: 0;
   font-size: 14px;
+  color: #566b8d;
 }
 
 .btn-next{
   position: absolute;
   height: 30px;
-  width: 110px;
-  bottom: 105px;
+  width: 35px;
+  bottom: 75px;
   right: 710px;
+  background-color: #b1c8e4;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-next:hover{
+  background-color: #889eba;
+}
+
+.btn-prev-icon{
+  color: white;
 }
 
 .btn-prev{
   position: absolute;
   height: 30px;
-  width: 100px;
-  bottom: 105px;
-  right: 825px;
+  width: 35px;
+  bottom: 75px;
+  right: 750px;
+  background-color: #b1c8e4;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-prev:hover{
+  background-color: #889eba;
+}
+
+.btn-next-icon{
+  color: white;
 }
 
 .students-image-wrapper{
   width: 60%;
+  position: relative;
+}
+
+.students-image{
+  width: 636px;
+  height: 556px;
+  position: absolute;
+  bottom: 0;
+  right: -20px;
 }
 
 .openlab-joinus{
