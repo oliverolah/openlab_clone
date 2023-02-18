@@ -825,6 +825,7 @@ transition: .3s;
   height: 470px;
   display: flex;
   padding: 48px;
+  position: relative;
 }
 
 .joinus-testimony-wrapper{
@@ -838,26 +839,37 @@ transition: .3s;
 
 .joinus-testimony-card{
   position: absolute;
-  background-color: #b95e73;
+  background-color: #a54fa2;
   width: 580px;
   height: 470px;
   top: -70px;
-  left: -80px;
+  left: -160px;
   border-radius: 6px;
   display: flex;
+  z-index: 2;
 }
 
 .joinus-testimony-img-wrapper{
-  width: 75%;
+  width: 90%;
   height: 100%;
   margin-left: auto;
   background-color:#3597ff;
   border-radius: 24px;
   margin: auto;
+  position: absolute;
+  z-index: 1;
+  right: -50px;
 }
 
 .testimony-card-info-wrapper{
   margin: 3.5em 2em;
+}
+
+.testimony-person-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .joinus-person{
@@ -908,17 +920,25 @@ transition: .3s;
   display: flex;
   gap: 5px;
   justify-content: center;
+  z-index: 3;
 }
 
 .scroller-circle-testimony{
   width: 10px;
   height: 10px;
-  background-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.742);
   border-radius: 50%;
 }
 
 .scroller-circle-testimony:nth-child(2){
-  background-color: #b95e73;
+  background-color: #3597ff;
+}
+
+.testimony-circle{
+  position: absolute;
+  width: 482px;
+  right: -110px;
+  bottom: -250px;
 }
 
 .openlab-projects{
