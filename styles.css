@@ -55,6 +55,12 @@ body{
   margin-right: .5em;
 }
 
+.comm-link-span-text:hover{
+  color: #494b4f;
+  transition: ease-in-out, .15s;
+
+}
+
 .navbar-container {
   width: 73%;
   height: 4.5rem;
@@ -1644,16 +1650,17 @@ transition: .3s;
 .newsletter-form{
   position: relative;
   margin: auto 0;
+  color: #3597ff;
 }
 
 .newsletter-input-field{
   width: 400px;
   padding: 10px 60px 10px 20px;
   border-radius: 8px;
-  border: 1px solid black;
+  border: 0;
 }
 
-.spinner-logo{
+.spinn-icon{
   position: absolute;
   right: 20px;
   bottom: 10px;
