@@ -1252,20 +1252,17 @@ transition: .3s;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  column-gap: 25px;
-  row-gap: 56px;
-  align-items: stretch;
 }
 
 .founder-card{
   width: 290px;
-  flex: 1;
+  height: 510px;
+  padding: 0 10px;
 }
 
 .founder-img-wrapper{
-  width: 100%;
+  width: 290px;
   height: 340px;
-  border-radius: 8px;
 }
 
 .founder-img{
