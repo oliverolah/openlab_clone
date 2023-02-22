@@ -1,7 +1,10 @@
 :root{
   --f-size-label: 20px;
   --font: 'SF Pro Display', sans-serif;
-  --box-mb: 48px;
+  --box-mb: 32px;
+  --main-color: #d7eaff;
+  --input-bg-color: #f9fcff;
+  --inputi-border-focus-outline: #afbcca;
 }
 
 body{
@@ -111,7 +114,7 @@ body{
 .form-container{
   width: 50%;
   margin: auto;
-  background-color: #d7eaff;
+  background-color: var(--main-color);
   border-radius: 8px;
   padding: 40px 60px;
 }
@@ -124,12 +127,50 @@ body{
   font-size: var(--f-size-label);
 }
 
-.credential-input-field{
+.upper-credentials-wrapper{
+  margin-bottom: var(--box-mb);
+  display: flex;
+  gap: 15px;
+}
+
+.upper-cred{
+  width: 50%;
+}
+
+.upper-credential-input-field{
   width: calc(100% - 42px);
-  margin: .5em auto 2em auto;
+  margin: .5em auto 0 auto;
   padding: 12px 20px;
   border-radius: 6px;
-  border: 1px solid black;
+  border: 0;
+  background-color: var(--input-bg-color);
+}
+
+.upper-credential-input-field:focus{
+  outline: .5px solid var(--inputi-border-focus-outline);
+}
+
+.lower-credentials-wrapper{
+  margin-bottom: var(--box-mb);
+  display: flex;
+  gap: 15px;
+}
+
+.lower-cred{
+  width: 50%;
+}
+
+.lower-credential-input-field{
+  width: calc(100% - 42px);
+  margin: .5em auto 0 auto;
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: 0;
+  background-color: var(--input-bg-color);
+}
+
+.lower-credential-input-field:focus{
+  outline: .5px solid var(--inputi-border-focus-outline);
 }
 
 .credential-input-field:last-child{
@@ -203,7 +244,7 @@ body{
 }
 
 textarea{
-width: calc(100% - 6px);
+width: calc(100% - 16px);
 border-radius: 8px;
 border: 1px solid black;
 padding: 3px 7px;
