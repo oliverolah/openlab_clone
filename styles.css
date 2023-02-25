@@ -1250,12 +1250,12 @@ transition: .3s;
 
 .team-openlab-founders-wrapper{
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
-  /* flex-direction: row; */
 }
 
-.founder-card{
-  width: 290px;
+.founder-card {
+  width: calc(25% - 20px);
   height: 510px;
   padding: 0 10px;
 }
@@ -1270,6 +1270,7 @@ transition: .3s;
   height: 100%;
   object-fit: cover;
   border-radius: 8px;
+  vertical-align: middle;
 }
 
 .founder-info-wrapper{

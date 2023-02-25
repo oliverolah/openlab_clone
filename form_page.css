@@ -5,6 +5,8 @@
   --main-color: #d7eaff;
   --input-bg-color: #f9fcff;
   --inputi-border-focus-outline: #afbcca;
+  --btn-color-main: #3597ff;
+  --btn-color-main-hover: #48a0ff;
 }
 
 body{
@@ -179,14 +181,12 @@ body{
 
 .age-gender{
   margin-bottom: var(--box-mb);
+  display: flex;
+  gap: 30px;
 }
 
 .age-gender-label{
   font-size: var(--f-size-label);
-}
-
-.gender-info{
-  margin-bottom: 1em;
 }
 
 .age-gender-options{
@@ -198,24 +198,39 @@ body{
   font-style: italic;
 }
 
-.tech-academy-info{
+.technologies-container{
   margin-bottom: var(--box-mb);
   display: flex;
+  justify-content: space-between;
+}
+.tech-info-wrapper{
+  width: 32%;
+}
+
+.tech-wrapper{
+  margin-top: 12px;
 }
 
 .tech-academy-label{
   font-size: var(--f-size-label);
-  margin: auto 0;
 }
 
-.tech-academy-info select{
-  padding: 3px 7px;
-  margin-left: .5em;
+.tech-wrapper select{
+  padding: 12px 20px;
+  width: 100%;
+  border-radius: 6px;
+  border: 0;
+  /* background-color: var(--input-bg-color); */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('https://api.iconify.design/lucide/chevrons-up-down.svg?width=20') no-repeat center var(--input-bg-color);
+  background-position: calc(100% - 0.75rem);
+  background-size: 24px;
 }
 
-.tech-languages{
-  margin-bottom: var(--box-mb);
-  display: flex;
+.tech-wrapper select:focus{
+  outline: .5px solid var(--inputi-border-focus-outline);
 }
 
 .tech-languages-label{
@@ -226,11 +241,6 @@ body{
 .tech-languages select{
   padding: 3px 7px;
   margin-left: .5em;
-}
-
-.tech-frameworks{
-  margin-bottom: var(--box-mb);
-  display: flex;
 }
 
 .tech-frameworks-label{
@@ -244,17 +254,24 @@ body{
 }
 
 textarea{
-width: calc(100% - 16px);
-border-radius: 8px;
-border: 1px solid black;
-padding: 3px 7px;
-font-family: var(--font);
-margin-bottom: var(--box-mb);
+  width: calc(100% - 40px);
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 3px 7px;
+  font-family: var(--font);
+  margin-bottom: var(--box-mb);
+  border-radius: 6px;
+  border: 0;
+  background-color: var(--input-bg-color);
+  padding: 12px 20px;
+}
+
+textarea:focus{
+  outline: .5px solid var(--inputi-border-focus-outline);
 }
 
 .academy-loc{
   margin-bottom: var(--box-mb);
-  display: flex;
 }
 
 .academy-loc-label{
@@ -262,21 +279,38 @@ margin-bottom: var(--box-mb);
   margin: auto 0;
 }
 
+.academy-loc-wrapper{
+  margin-top: 12px;
+  width: 32%;
+}
+
 .academy-loc select{
-  padding: 3px 7px;
-  margin-left: .5em;
+  padding: 12px 20px;
+  width: 100%;
+  border-radius: 6px;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('https://api.iconify.design/lucide/chevrons-up-down.svg?width=20') no-repeat center var(--input-bg-color);
+  background-position: calc(100% - 0.75rem);
+  background-size: 24px;
+}
+
+.academy-loc select:focus{
+  outline: .5px solid var(--inputi-border-focus-outline);
 }
 
 .submit-btn{
-  border: 1px solid #16de00;
+  border: 0;
   border-radius: 6px;
   width: 100%;
   padding: 12px 0px;
-  background-color: #16de00;
+  background-color: var(--btn-color-main);
+  color: white;
   cursor: pointer;
 }
 
 .submit-btn:hover{
-  background-color: #2be915;
-  border: 1px solid #2be915;
+  background-color: var(--btn-color-main-hover);
 }
